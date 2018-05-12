@@ -6,3 +6,16 @@
   background: -o-linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
   background: linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
 }
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+a {
+  color: #3e3947;
+  text-decoration: none;
+}
