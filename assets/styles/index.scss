@@ -1,1 +1,8 @@
-// empty
+@import "material-kit-pro/material-kit";
+
+.page-header {
+  background: rgb(91,140,168);
+  background: -webkit-linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
+  background: -o-linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
+  background: linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
+}
