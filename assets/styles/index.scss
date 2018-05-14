@@ -18,6 +18,16 @@ $btn-itflows-border-color: $brand-itflows;
   }
 }
 
+.card-background,
+.back-background,
+.front-background {
+  .card-category,
+  .card-description,
+  small{
+      color: rgba($white, .9) !important;
+  }
+}
+
 .page-header {
   background: rgb(91,140,168);
   background: -webkit-linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);

@@ -23,6 +23,7 @@ assets/styles/material-kit-pro/pro/*
 !assets/styles/material-kit-pro/core/mixins
 !assets/styles/material-kit-pro/core/_variables.scss
 !assets/styles/material-kit-pro/core/_buttons.scss
+!assets/styles/material-kit-pro/core/_cards.scss
 !assets/styles/material-kit-pro/core/_mixins.scss
 !assets/styles/material-kit-pro/core/_nav.scss
 !assets/styles/material-kit-pro/core/_navbar.scss
@@ -35,3 +36,4 @@ assets/styles/material-kit-pro/pro/*
 !assets/styles/material-kit-pro/core/_type.scss
 !assets/styles/material-kit-pro/core/_responsive.scss
 !assets/styles/material-kit-pro/pro/sections/_headers.scss
+!assets/styles/material-kit-pro/pro/_cards.scss
