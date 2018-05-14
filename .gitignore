@@ -22,7 +22,10 @@ assets/styles/material-kit-pro/pro/*
 !assets/styles/material-kit-pro/core/variables
 !assets/styles/material-kit-pro/core/mixins
 !assets/styles/material-kit-pro/core/_variables.scss
+!assets/styles/material-kit-pro/core/_buttons.scss
 !assets/styles/material-kit-pro/core/_mixins.scss
+!assets/styles/material-kit-pro/core/_nav.scss
+!assets/styles/material-kit-pro/core/_navbar.scss
 !assets/styles/material-kit-pro/core/_core-bootstrap.scss
 !assets/styles/material-kit-pro/core/_footers.scss
 !assets/styles/material-kit-pro/core/_info-areas.scss
