@@ -1,5 +1,23 @@
 @import "material-kit-pro/material-kit";
 
+$brand-itflows: #58b6dc;
+
+$btn-itflows-color:        #fff;
+$btn-itflows-bg:           $brand-itflows;
+$btn-itflows-border-color: $brand-itflows;
+
+.btn {
+  &.btn-itflows {
+    @include bmd-raised-button-variant($btn-itflows-color, $btn-itflows-bg, $btn-itflows-border-color);
+  }
+}
+
+.icon {
+  &.icon-itflows {
+    color: $brand-itflows;
+  }
+}
+
 .page-header {
   background: rgb(91,140,168);
   background: -webkit-linear-gradient(rgba(91,140,168,1) 25%, rgba(91,169,215,1) 100%);
