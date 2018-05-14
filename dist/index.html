@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>ITflows</title>
+  <title>Itflows</title>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=vMOnge5Gld">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=vMOnge5Gld">
@@ -17,7 +18,24 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <div class="page-header header-filter header-small">
+  <nav class="navbar navbar-default fixed-top navbar-expand-lg" role="navigation-demo">
+    <div class="container">
+      <div class="navbar-translate">
+        <div class="d-inline-flex align-items-center navbar-brand" href="/">
+          <img src="drops.png" alt="drops" style="width: 20px;">
+          <div class="ml-1">Itflows</div>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <a href="#" class="btn btn-itflows btn-raised btn-fab btn-round" data-toggle="dropdown">
+            <i class="material-icons">email</i>
+            <div class="ripple-container"></div></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="page-header header-small">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
@@ -29,63 +47,133 @@
   </div>
   <div class="main main-raised">
     <div class="container">
-      <div class="about-services features-2 pb-5">
+      <div class="skillset">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Experience</h2>
-            <h5 class="description">More then 10 years of experience.</h5>
+            <h2 class="title">But, what do you do?</h2>
+            <h5 class="description">With more than 10 years of experience I've touched all layers of the stack. I'll give you a small example of my skillset:</h5>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
             <div class="info info-horizontal">
-              <div class="icon icon-rose">
+              <div class="icon icon-itflows">
                 <i class="material-icons">gesture</i>
               </div>
               <div class="description">
                 <h4 class="info-title">Front-end</h4>
-                <p>I'm not shy to get my hands dirty on CSS, HTML or JS</p>
+                <p style="height:130px;">I'm not shy to get my hands dirty on CSS, HTML or JS</p>
                 <dl>
                   <dt>Tools</dt>
                   <dd>React</dd>
+                  <dd>AngularJS</dd>
+                  <dd>Material Design</dd>
+                  <dd>Bootstrap</dd>
                   <dd>Sass</dd>
-                  <dd>Babel</dd>
+                  <dd>ES6</dd>
                 </dl>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info info-horizontal">
-              <div class="icon icon-rose">
+              <div class="icon icon-itflows">
                 <i class="material-icons">build</i>
               </div>
               <div class="description">
                 <h4 class="info-title">Back-end</h4>
-                <p>My passion lies with coding Ruby. You'll find me on the back-end mostly.</p>
+                <p style="height:130px;">My passion lies with using Ruby. You'll find me working on the back-end mostly.</p>
                 <dl>
-                  <dt>Tools</dt>
+                  <dt>Tools / Methodologies</dt>
                   <dd>Ruby on Rails</dd>
+                  <dd>API's</dd>
+                  <dd>Minitest / Rspec</dd>
+                  <dd>Automated testing</dd>
+                  <dd>Don't Repeat Yourself</dd>
                 </dl>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info info-horizontal">
-              <div class="icon icon-rose">
+              <div class="icon icon-itflows">
                 <i class="material-icons">storage</i>
               </div>
               <div class="description">
                 <h4 class="info-title">Dev-ops</h4>
-                <p>Coming from an age where we didn't have simple deployment options I've gained expierence with different deployment options. Nowadays I've traded the manual for the automated.</p>
+                <p style="height:130px;">Coming from an age where we didn't have simple deployment options I've gained expierence with different deployment options. Nowadays I've traded the manual for the automated.</p>
                 <dl>
                   <dt>Tools</dt>
                   <dd>Ubuntu</dd>
                   <dd>Chef</dd>
                   <dd>Dokku</dd>
                   <dd>Docker</dd>
+                  <dd>Nginx</dd>
+                  <dd>PostgreSQL</dd>
+                  <dd>MySQL</dd>
                 </dl>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="proof">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">Not bad, can you show me something?</h2>
+            <h5 class="description">Most of the work I do is behind closed doors but here is some public work.</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-background" style="background-image: url('github-profile.jpg')">
+              <div class="card-body">
+                <h6 class="card-category text-info">Open source</h6>
+                <a target="_blank" href="https://github.com/yourivdlans">
+                  <h3 class="card-title">Github</h3>
+                </a>
+                <p class="card-description">
+                  View my Github profile to get an idea of what I'm working on in the open source community.
+                </p>
+                <a target="_blank" href="https://github.com/yourivdlans" class="btn btn-success btn-round">
+                  View profile
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-background" style="background-image: url('materialism.jpg')">
+              <div class="card-body">
+                <h6 class="card-category text-info">Theme creator alter-ego</h6>
+                <a target="_blank" href="https://themeforest.net/user/themeguys/portfolio">
+                  <h3 class="card-title">ThemeGuys</h3>
+                </a>
+                <p class="card-description">
+                  Together with a friend and colleague we started the ThemeGuys alter-ego to develop themes.
+                </p>
+                <a target="_blank" href="https://themeforest.net/user/themeguys/portfolio" class="btn btn-success btn-round">
+                  View portfolio
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact pb-5">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">And how can I contact you?</h2>
+            <h5 class="description">Easy! Just pick one of the options below.</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <a href="mailto:youri@itflows.nl" class="btn btn-social btn-fill btn-twitter">
+              <i class="material-icons">email</i> youri@itflows.nl
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/yourivdlans/" class="btn btn-social btn-fill btn-linkedin">
+              <i class="fa fa-linkedin-square"></i> Connect with Linkedin
+            </a>
           </div>
         </div>
       </div>
@@ -97,10 +185,9 @@
         ©
         <script>
           document.write(new Date().getFullYear())
-        </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.itflows.nl" target="_blank">Youri van der Lans</a>.
+        </script>, Itflows
       </div>
     </div>
   </footer>
-<script type="text/javascript" src="vendor.ec7beaac88ed56531432.js"></script><script type="text/javascript" src="bundle.a019d79568c428b4985a.js"></script></body>
+<script type="text/javascript" src="vendor.275eece36c00624b1d8d.js"></script><script type="text/javascript" src="bundle.a42cd7f2c476beb03116.js"></script></body>
 </html>
