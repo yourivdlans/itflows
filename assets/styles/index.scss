@@ -18,6 +18,18 @@ $btn-itflows-border-color: $brand-itflows;
   }
 }
 
+.h-md-200px {
+  @include media-breakpoint-up('md') {
+    height: 200px;
+  }
+}
+
+.h-lg-150px {
+  @include media-breakpoint-up('lg') {
+    height: 150px;
+  }
+}
+
 .card-background,
 .back-background,
 .front-background {
